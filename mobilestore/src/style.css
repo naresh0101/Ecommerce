@@ -1,0 +1,299 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+/* =============================================below is the css of sign up page */
+.contain-signup{
+    width:400px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;;
+    margin-top:150px;
+    /* background: red; */
+    padding:20px;
+    box-shadow: 0 4px 18px 0 rgb(21, 129, 230);
+    transition: 0.3s;
+    border-radius:5px;
+}
+.contain-signup input:focus,.productsearch{
+    outline: none;
+}
+.userinput{
+    width:100%;
+    height:30px;
+    border-style:none;
+    border-bottom:solid 2px rgb(21, 129, 230) ;
+    background:transparent;
+    font-size:20px;
+    /* border-bottom-color:; */
+}
+.inp-dis{
+    margin-bottom: 1px;
+    color:#3a38389f;
+}
+.subbtn{
+    margin-top:15px;
+    border-style:none;
+    width:100%;
+    /* margin-left: 10%; */
+    /* margin-right:10%; */
+    font-size: 25px;
+    padding: 10px;
+    background:rgb(61, 144, 223);
+    color:white;
+    border-radius:5px; 
+   
+}
+.subbtn:focus{
+    outline:none;
+}
+
+/* ===============================================below is the css of  Menu bar */
+.productsearch{
+    border-style:none;
+    border-bottom:solid 2px white ;
+    background:transparent;
+    padding-left:10px;
+    width:300px;
+    color:black;
+    /* font-weight:bold; */
+    text-transform:capitalize;  
+
+}
+.productsearch::placeholder{
+    color:rgba(32, 27, 27, 0.829);
+    font-weight:normal;
+}
+.search,.search:focus{
+    outline: none;
+    border-style:none;
+    background:transparent;
+    margin-left:10px;
+    border-radius:5px;      
+    color:rgb(48, 45, 45);
+}
+
+
+@media only screen and (max-width:600px){
+    .productsearch{
+        width:200px;
+    }
+    .w-100{
+        height:300px!important;
+    }
+    .menublue{
+        color:white!important;
+    }
+}
+.dropdown-menu{
+    background:#80d8ff!important;
+}
+.dropdown-item:hover{
+    background:#63717e!important;
+}
+.accountlogo{
+    background:rgb(238, 223, 223);
+    width:50px;
+    height:45px;
+    padding:3px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+}
+
+/* below is the css of header  */
+.carousel-indicators{
+    display:none;
+}
+
+/* ====================================================css of Product card */
+.productcard{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgb(168, 165, 165);
+    padding:10px;
+    margin:5px;
+    width:270px;
+    cursor: pointer;
+}
+.productcard:hover{
+    box-shadow: 0 4px 28px 0 gray;
+    transition: 0.6s;
+}
+.productcard span{
+    height:20px;
+    overflow: hidden;
+}
+.productcard > h3{
+    font-weight: bolder;
+    color: #504545;
+}
+@media only screen and (max-width:600px){
+    .productcard{
+        width: 100%;
+    }
+}
+
+.fa{
+    color:rgba(88, 85, 85, 0.342);
+}
+
+/* ================================================css of footer */
+.colof_ftr{
+    width:350px;
+}
+
+.colof_ftr > li{
+    list-style: none;
+}
+
+@media only screen and (max-width:769px){
+    .colof_ftr{
+       text-align: center;
+    }
+}
+
+footer{
+    background: #80d8ff;
+    margin-top:100px;
+    padding-bottom:50px;
+}
+
+/* =================================================css of productshop page */
+.subclsbuy{
+    width:100%;
+    padding:20px;
+}
+.phoneimg{
+    text-align: center;
+}  
+ /*--------add to card  */
+ .addtocard{
+     margin-right:90%;
+     height:50px;
+     width:50px;
+     border-radius:50%;
+     box-shadow: 0 2px 4px 0 rgb(168, 165, 165);
+     font-size:25px;
+     display: flex;
+     justify-content:center;
+     align-items: center;
+ }
+
+ .btn4stuff> button,.btn4stuff> button:focus{
+    outline:none;
+    border-style:none;
+    box-shadow: 0 2px 4px 0 rgb(168, 165, 165);
+    /* background:white; */
+    width:45%;
+    height:50px;
+    margin:5px;  
+ }
+ .buybtn{
+     background: #80d8ff;
+     color:white;
+     font-weight:bolder;
+ }
+ .subclsbuy{
+    box-shadow: 0 2px 4px 0 rgb(168, 165, 165);
+    margin-top:50px;
+ }
+
+ @media only screen and (max-width:600px){
+    .subclsbuy{
+        box-shadow: 0 0px 0px 0 rgb(168, 165, 165);
+        margin-top:0px; 
+     }
+ }
+
+ /* ======================================================css of Account page */
+
+.fb-profile img.fb-image-lg{
+    z-index: 0;
+    width: 100%;  
+    margin-bottom: 10px;
+}
+
+.fb-image-profile
+{
+    margin: -90px 10px 0px 50px;
+    z-index: 9;
+    width: 20%; 
+}
+
+@media only screen and  (max-width:600px)
+{
+    
+.fb-profile-text>h1{
+    font-weight: 700;
+    font-size:16px;
+}
+
+.fb-image-profile
+{
+    margin: -45px 10px 0px 25px;
+    z-index: 9;
+    width: 20%; 
+}
+.editaddress{
+    width:100%!important;
+    outline:none; 
+    
+}
+
+.saveaccountedit>button{
+    width:100%!important;
+    margin-left:0px!important;
+}
+.saveaccountedit{
+    display:flex!important;
+    flex-direction:column!important;
+}
+
+}
+
+/* -----table */
+table{
+    width:100%;
+}
+
+.wtext{
+    width:25%;
+}
+td {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width:50%;
+} 
+
+  
+.editaddress{
+    width:50%;
+    height:80px;
+    padding:10px;
+    outline:none; 
+    text-transform:capitalize;
+    margin-bottom:10px;
+}
+.saveaccountedit{
+    display: flex;
+    flex-direction:row;
+}
+.saveaccountedit>button{
+    border-style: none;
+    width:50%;
+    margin-left:10px;
+    height:80px;
+    background: #80d8ff;
+    color:white; 
+}
+
+.inputedit{
+    border:none;
+    border-bottom: 2px solid #5a5959;
+    outline:none;
+    /* display:none; */
+
+}
